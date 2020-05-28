@@ -1,0 +1,150 @@
+#banner{
+    background-image: url(images/banner.jpg);
+    background-position: 0px -250px;
+    background-size: cover;
+    padding: 100px;
+
+    text-align: center;
+       
+    margin-bottom: 10px;
+    font-family: 'Merriweather', serif;
+   
+}
+
+#banner h1{
+    font-weight: bold;
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.849);
+    text-shadow: 1px 1px 4px whitesmoke;
+}
+
+#banner p{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(163, 159, 159);
+    text-shadow: 1px 1px 3px lightgrey;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    text-shadow: 1px 1px 2px gray;
+    text-align: center;
+    margin-bottom: 20px;
+   
+}
+
+#form{
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto 15%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    outline: none;
+    box-shadow: none;
+   
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border: none;   
+}
+
+input, textarea{
+    border: none;
+}
+input{
+    justify-content: space-between;
+}
+
+.input-wrapper{
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    border: 1px solid rgba(25, 52, 141, 0.5);
+    outline: none;
+    font-size: 16px;
+    display: flex;  
+    
+}
+
+textarea{
+    resize: none;
+}
+
+.textarea{
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    border: 1px solid rgba(25, 52, 141, 0.5);
+    outline: none;
+    font-size: 16px;
+    display: flex;
+    grid-column: span 2;   
+}
+
+#form a{
+    background-color: rgba(0, 0, 0, 0.849);
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 6px;
+    font-size: 14x;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: end;
+    transition: 400ms;
+
+}
+
+#form a:hover{
+    background: #fff;
+    color: rgba(0, 0, 0, 0.849);
+}
+
+#form button{
+    background: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 32px;
+    grid-column: 2;
+    justify-self: end;
+    transition: 400ms;
+}
+
+#form button:hover{
+    background-color:  rgba(0, 0, 0, 0.849);
+    color: white;
+    text-decoration: none;
+}
+
+#footer{
+    padding: 0px;
+    background:  rgba(0, 0, 0, 0.849);
+    color:seashell;
+    text-align: center;
+}
+
+#footer p {
+    padding-top: 0px;
+    
+}
+
+#footer a {
+    color: seashell;
+    font-size: 15px;
+    transition: 2s;
+}
+
+#footer a:hover {
+    color: black;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Roboto:wght@300;400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Speak UP!</title>
+</head>
+<body>
+    <header>
+        <div id="banner">
+            <h1>Learn the language you want and face the world</h1>
+            <p>Speak Up is more than an online school. Join us!</p>
+        </div>               
+               
+    </header>
+
+    <h2>Send us a message!</h2>
+
+    <main>
+        <div id="form">
+                <div class="input-wrapper">
+                    <input type="text" name="name" placeholder="Your name"/>
+                </div>
+                <div class="input-wrapper">
+                    <input type="text" name="email" placeholder="Your e-mail"/>
+                </div>
+                <div class="textarea">
+                    <textarea name="description"cols="30" rows="10" style: placeholder="Write your message"></textarea>
+                </div>
+                <div class="input-wrapper">
+                    <label for="title">Do you want to receive an exclusive content, with tips and news?</label>
+                    <input type="radio" name="option"/> Yes                       
+                    <input type="radio" name="option" /> No
+                </div>
+                <div class="input-wrapper">
+                    <label for="title">Do you agree with contacts by phone?</label>
+                    <input type="checkbox" name="checkbox"/>
+                    <input type="tel" placeholder="Your number"/>                
+                </div>
+                <div class="input-wrapper">
+                    <label for="title">Date of birth</label>
+                    <input type="date" name="date">
+                </div>
+                <div class="input-wrapper">
+                    <input type="text" name="course" placeholder="Language"/>
+                </div>
+                
+                <a href="#" onclick="onOff()">Back</a>
+                <button>Send message</button>           
+                            
+            </form>
+        </div>  
+    </main>
+
+    <footer>
+        <div id="footer">
+            <p>©Speak UP! 2020</p>
+            <ul class="list-inline">
+            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-github"></i></a></li>
+        </ul>
+        </div>
+      
+    </footer>
+   
+<script src="js/script.js"></script>
+    
+</body>
+</html>

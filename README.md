@@ -101,5 +101,6 @@ Now, save your work and click with the right button - option: "Open in browser".
         </iframe>
 2. The `src` attribute point to the video URL.
 3. The `width` and `height` attributes to specify the dimension of the player.
-4. Inserir uma tag de imagem: 
- `<img src="img_example.jpg"  alt="This is a car"  width="500"  height="600">`
+4.  Download an image and create a tag for it: 
+ `<img src="<IMAGE.jpg>"  alt="This is a car"  width="500"  height="600">`
+
